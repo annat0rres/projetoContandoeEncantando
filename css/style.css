@@ -14,20 +14,39 @@ header{
     background-color:#D99543;
     color:#592A0F;
     width: 100vw;
-    height: 10px;
-    padding: 15px 20px;
+    padding: 10px;
 }
 
-.sections{
-    display: inline;
-    padding: 30px;
-    font-weight: bold;
+#menu > ul{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    font-weight: bolder;
 }
+
+#menu ul > li{
+    padding: 10px;
+    font-size: 18px;
+}
+
+#menu li:hover{
+    color: #D99543;
+    background-color: #592A0F;
+    text-decoration: wavy;
+    border-radius: 20px;
+}
+
+
+#menu a{
+    text-decoration: none;
+    color: inherit;
+}
+
 
 
 #hero{
     width: 100vw;
-    height: 689px;
+    height: 667px;
     display: flex;
     background-color: #592A0F;
     justify-content: center;
