@@ -8,13 +8,17 @@
 
 body{
     overflow-x: hidden;
+    background-color: #592A0F;
+    color:#D99543;
 }
 
 header{
+    position: fixed;
     background-color:#D99543;
     color:#592A0F;
     width: 100vw;
     padding: 10px;
+    z-index: 10;
 }
 
 #menu > ul{
@@ -44,11 +48,14 @@ header{
 
 
 
-#hero{
+#hero, #neabipag{
     width: 100vw;
-    height: 667px;
-    display: flex;
+    height: 100vh;
     background-color: #592A0F;
+}
+
+#hero{
+    display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
@@ -97,4 +104,82 @@ header{
 #bt-inicio:hover{
     color: #D99543;
     background-color: #592A0F;
+}
+
+
+/* pagina do neabi */
+
+#neabipag{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100%;
+}
+
+#sobreoneabi, #membrosneabi{
+    display:flex;
+    width: 100vw;
+    height: 730px;
+}
+
+#ladodir{
+    width: 400px;
+}
+
+#ladoesq{
+    width: 400px;
+}
+
+#centro{
+    width: 730px;
+    position: relative;
+}
+
+#neabi1, #neabi2{
+    width: 300px;
+    border: 3px solid #D99543;
+    border-radius: 50%;
+    padding: 3px;
+}
+
+#neabi1{
+    position: absolute;
+    top: 10rem;
+    left: -2rem;
+}
+
+#neabi2{
+    position: absolute;
+    top: 25rem;
+    right: -2rem;
+}
+
+#centro h1 {
+    color: #D99543; /* cor de destaque */
+    font-size: 40px;
+    position: absolute;
+    top: 13rem;
+    left: 4rem;
+}
+
+#centro p {
+    margin-top: 3rem;
+    position: absolute;
+    top: 16rem;
+    left: 3rem;
+    font-size: 20px;
+    color: #D99543;
+}
+
+#membrosneabi{
+    display: flex;
+    width: 100vw;
+    height: 600px;
+    color:#D99543;
+}
+
+
+#membrosneabi h3{
+    padding-left: 5rem;
+    font-size: 26px;
 }
