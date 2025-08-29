@@ -47,7 +47,6 @@ header{
 }
 
 
-
 #hero, #neabipag{
     width: 100vw;
     height: 100vh;
@@ -389,7 +388,7 @@ header{
     border-radius: 20px;
 }
 
-#amoras h4, h6, p{
+#amoras h4, #amoras h6, #amoras p{
     text-align: center;
     color:#592A0F;
 
